@@ -1,0 +1,37 @@
+{
+  "name": "hyper-ballerini-theme",
+  "version": "1.0.0",
+  "description": "Utilize o Ballerini Theme no seu Hyper Terminal.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "styles.css"
+  ],
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "semicolon": false,
+    "globals": [
+      "document"
+    ]
+  },
+  "repository": "llofyy/hyper-ballerini-theme",
+  "keywords": [
+    "hyper",
+    "theme",
+    "ballerini",
+    "ballerini-theme",
+    "hyper-theme"
+  ],
+  "author": "llofyy",
+  "license": "MIT",
+  "plugin": {
+    "title": "Hyper Ballerini Theme",
+    "caption": "Utilize o Ballerini Theme no seu Hyper Terminal.",
+    "preview": "https://i.imgur.com/BFKNEbH.png"
+  },
+  "devDependencies": {
+    "husky": "0.14.3",
+    "xo": "0.18.2"
+  }
+}
