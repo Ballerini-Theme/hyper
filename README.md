@@ -14,6 +14,9 @@
   <img src="https://img.shields.io/badge/PRs-welcome-orange" alt="PRs Welcome"/>
 
   <img src="https://img.shields.io/badge/MIT-License-orange" alt="MIT License"/>
+
+<a href="https://www.npmjs.com/package/hyper-ballerini-theme"><img src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white" alt="NPM Package"/></a>
+
 </p>
 
 <p align="center">
