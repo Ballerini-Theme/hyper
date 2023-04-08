@@ -1,15 +1,13 @@
 ### [](https://website-link.com)
 
-#### Install using Git
+#### Install using Hyper
 
-IOpen your Hyper local plugins repository and use:
+Open your Hyper Terminal and type:
 
 ```
-$ git clone https://github.com/llofyy/hyper-terminal.git
+$ hyper i hyper-ballerini-theme
 ```
 
 #### Activating theme
 
-1. Open your Hyper configuration file
-2. Add the line localPlugins: ['hyper-terminal']
-3. Reload the terminal
+1. Reload the terminal
