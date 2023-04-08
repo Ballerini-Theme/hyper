@@ -1,6 +1,6 @@
 {
   "name": "hyper-ballerini-theme",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Utilize o Ballerini Theme no seu Hyper Terminal.",
   "main": "index.js",
   "files": [
