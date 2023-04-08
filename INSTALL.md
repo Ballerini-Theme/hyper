@@ -2,18 +2,14 @@
 
 #### Install using Git
 
-If you are a git user, you can install the theme by cloning the repository:
+IOpen your Hyper local plugins repository and use:
 
 ```
-$ git clone https://github.com/Ballerini-Theme/template.git
+$ git clone https://github.com/llofyy/hyper-terminal.git
 ```
-
-#### Install manually
-
-Download using the [GitHub .zip download](https://github.com/Ballerini-Theme/template/archive/main.zip) option and unzip them.
 
 #### Activating theme
 
-1. Step 1
-2. Step 2
-3. Step 3
+1. Open your Hyper configuration file
+2. Add the line localPlugins: ['hyper-terminal']
+3. Reload the terminal
