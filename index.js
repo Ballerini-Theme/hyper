@@ -1,3 +1,17 @@
+const colors = {
+  backgroundColor: "#261C1E",
+  cursorColor: "#A45A49",
+  foregroundColor: "#FFF2E7",
+  cursorAccentColor: "#2F2325",
+  selectionColor: "#583c38",
+  borderColor: "#8E646B",
+  black: "#EFC764",
+  green: "#67E480",
+  red: "#E94554",
+  comment: "#8E646B",
+  pink: "#feafbe",
+};
+
 module.exports.decorateConfig = (config) => {
   return Object.assign({}, config, {
     cursorColor: colors.cursorColor,
@@ -25,18 +39,15 @@ module.exports.decorateConfig = (config) => {
       lightCyan: "#61ffca",
       lightWhite: colors.foregroundColor,
     },
+    css: `
+      ${config.css || ""}
+      * {
+      -webkit-font-feature-settings: "liga" on, "calt" on, "dlig" on !important;
+        text-rendering: optimizeLegibility !important;
+      }
+      .header_shape, .tab_tab.tab_active, .header_appTitle {
+        color: ${colors.pink} !important;
+      }
+    `,
   });
-};
-
-const colors = {
-  backgroundColor: "#261C1E",
-  cursorColor: "#A45A49",
-  foregroundColor: "#FFF2E7",
-  cursorAccentColor: "#2F2325",
-  selectionColor: "#583c38",
-  borderColor: "#8E646B",
-  black: "#EFC764",
-  green: "#67E480",
-  red: "#E94554",
-  comment: "#8E646B",
 };
